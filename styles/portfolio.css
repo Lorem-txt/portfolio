@@ -105,7 +105,7 @@ ul{
 
 /* shared class */
 .secondary-bg{
-  background-color: #fde3e3;
+  background-color: #e3cfcf;
 }
 
 .section-title{
@@ -186,3 +186,26 @@ main section{
     color: #474747;
     margin-bottom: 10px;
 }
+
+/* footer styles */
+
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 20px;
+  /* margin: 4px; */
+}
+
+/* .social{
+  float: left;
+} */
+.father-of-strata{
+  position: relative;
+}
+
+
+.strata{
+  display: flex;
+  align-items: end;
+}
+
