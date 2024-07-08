@@ -1,0 +1,164 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* shared style, (colored <span>.r of mary) */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: 900;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+  /* nav style, Mary */
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+  }
+
+  /* <h3 class="nav-title">Ma<span  */
+  .nav-title{
+    font-size: 45px;
+    font-weight: 800;
+  }
+
+  /* <nav> 
+  <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+  <ul>
+      (here we are)<li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#"><button>Hire me</button></a></li>
+  </ul>
+</nav>     */
+ul{
+    display: flex;
+    align-items: center;
+}
+
+  nav ul li{
+    list-style: none;
+    margin-right: 20px;
+  }
+  /* <li><a href="#">Blogs</a></li> */
+  nav ul li a{
+    text-decoration: none;
+  }
+
+  .dark-2{
+    color: #474747;
+  }
+
+
+  /* header */
+
+  .header{
+    background-image:url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
+
+/* second portion(banner tales) of code will be written from here */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0  230px 0;
+}
+
+.banner-content{
+    max-width: 580px;
+    margin-left: 120px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600px;
+}
+
+
+.banner-name{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-photo{
+    width: 580px;
+}
+
+/* shared class */
+.secondary-bg{
+  background-color: #fde3e3;
+}
+
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+/* ends here */
+
+
+
+/* main styles */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/* about styles*/
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+  }
+
+ .item-description{
+  font-weight: 600;
+ }
+
+
+ /* skill section */
+
+ .skills-container{
+  display: flex;
+  gap: 24px;
+ }
+
+ .skill{
+   padding: 30px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
+   border-radius: 5px;
+  }
